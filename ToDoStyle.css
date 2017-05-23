@@ -1,0 +1,75 @@
+body {
+    background-color: orange;
+}
+
+.section{
+	background-color: lightyellow;
+	width:65%;
+	height:550px;
+	margin:auto;    
+    border: 5px solid lightgreen;
+    padding: 10px;
+	font-size:18px;
+	
+}
+
+.section h1{
+	text-align: center;
+	font-weight:bold;
+}
+
+/* Input field */
+input {
+    border: none;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+    input[type=text] {
+        width: 80%;
+    }
+
+/* Add Button*/
+.addBtn {
+    padding: 10px;
+    width: 15%;
+    background: lightgreen;
+    color: red;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* zebra - stripes*/
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+/*change background on hover*/
+ul li:hover {
+    background: #dd5;
+}
+
+#myList{
+	text-align:left;
+	list-style-type: none;
+	
+}
+
+/*decoration for new item*/
+.c1 {
+    font-style:italic;
+    color: blue;
+    font-size:25px;
+}
+
+/*change text decoration for completed item*/
+.c2 {
+    text-decoration: line-through;
+    font-size: 25px;
+}
+
+
